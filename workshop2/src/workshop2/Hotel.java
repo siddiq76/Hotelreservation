@@ -5,6 +5,7 @@ public class Hotel {
 	
 	private String hotelName;
 	private int regularRate;
+	private int weekendRate;
 
 	//Parameterized Constructor
 	public Hotel(String hotelName, int regularRate) {
@@ -27,5 +28,12 @@ public class Hotel {
 
 	public void setRegularRate(int regularRate) {
 		this.regularRate = regularRate;
+	}
+	public int getWeekendRate() {
+		return weekendRate;
+	}
+
+	public void setWeekendRate(int weekendRate) {
+		this.weekendRate = weekendRate;
 	}
 }	
